@@ -8,6 +8,10 @@ extension Array where String == Element {
         let current = input.remove(at: 0)
         let sentence = input.createSentence(with: current)
         
+        // Hey Tom, How are you? :D
+        // Is it ok to keep this if else?
+        // I couldn't figure out a way to extract it without passing in too many variables.
+        
         if let first = first {
             return sentence + input.recite(first)
         } else {
