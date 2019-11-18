@@ -7,3 +7,5 @@ Pretend did something cool.
 Pretend Fixed something cool.
 
 Keep doing it.
+
+And the last stroke.
